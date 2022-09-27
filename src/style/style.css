@@ -50,31 +50,36 @@ body {
     background-color: #229637 !important;
 }
 
-.container{
+.container {
     width: 100vw !important;
     background-color: #F5F7FA !important;
     /* border: 1px solid red !important; */
 }
-.col-10 img{
+
+.col-10 img {
     border-radius: 5px;
 }
-.ss{
+
+.ss {
     background-color: #F5F7FA !important;
     padding: 0em 0em !important;
 }
 
-.lead{
+.lead {
     color: #969595 !important;
     font-weight: 500 !important;
 }
-.italic-span{
+
+.italic-span {
     color: #229637;
     font-style: italic;
 }
-.get-btns a{
+
+.get-btns a {
     margin-top: 1em !important;
 }
-.btn-primary{
+
+.btn-primary {
     border: 1px solid #52E06B !important;
     background-color: #52E06B !important;
     border-radius: 30px !important;
@@ -82,17 +87,138 @@ body {
     font-weight: 500 !important;
     padding: .4em 1.3em !important;
 }
-.freelancer-card{
+
+.freelancer-card {
     padding: 3em 3.6em !important;
 }
-.card{
+
+.card {
     border: none !important;
     padding: 0.5em !important;
 }
-/* .row{
-    border: 1px solid red !important;
-    height: 50vh !important;
-} */
+
+
+.all-about {
+    /* height: 70vh !important; */
+    overflow: hidden;
+}
+
+.all-about-img {
+    /* height: 100% !important; */
+}
+
+.footer{
+    background-color: #222 !important;
+}
+
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+}
+
+.hr-or {
+    background-color: #e7e7e7;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+footer.nb-footer {
+    background: #e7e7e7;
+    border-top: 4px solid #229637;
+}
+
+footer.nb-footer .about {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1170px;
+    text-align: center;
+}
+
+footer.nb-footer .about p {
+    font-size: 13px;
+    color: red;
+    margin-top: 30px;
+}
+
+footer.nb-footer .about .social-media {
+    margin-top: 15px;
+}
+
+footer.nb-footer .about .social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #229637; 
+    border: 1px solid #229637;
+
+}
+
+footer.nb-footer .about .social-media ul li a:hover {
+    background: #229637;
+    color: #fff;
+    border-color: #229637;
+}
+
+footer.nb-footer .footer-info-single {
+    margin-top: 30px;
+}
+
+footer.nb-footer .footer-info-single .title {
+    color: #616161;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-left: 4px solid #229637;
+    padding-left: 5px;
+}
+
+footer.nb-footer .footer-info-single ul li a {
+    text-decoration: none;
+    display: block;
+    color: #524e4e;
+    padding: 2px 0;
+}
+
+footer.nb-footer .footer-info-single ul li a:hover {
+    color: #229637;
+}
+
+footer.nb-footer .footer-info-single p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #aaa;
+}
+
+footer.nb-footer .copyright {
+    margin-top: 15px;
+    background: #e7e7e7;
+    padding: 7px 0;
+    color: #999;
+}
+
+footer.nb-footer .copyright p {
+    margin: 0;
+    padding: 0;
+}
+
+.social-media ul{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-color{
+    background-color: #e7e7e7 !important;
+}
 
 
 /* 2E2929 1A1A1A b4c083 86983c*/
